@@ -1,0 +1,60 @@
+20 Advanced Shell Scripts for Azure DevOps
+Resource Monitoring Script  
+Check CPU, memory, and disk usage, and alert if thresholds are exceeded.
+
+Log Rotation Script  
+Automatically archive and compress logs to avoid filling up disk space.
+
+Azure CLI Automation Script  
+Automate resource creation (VMs, storage accounts, AKS clusters) using az commands.
+
+AKS Health Check Script  
+Run kubectl get pods and kubectl get nodes to verify cluster health and restart failing pods.
+
+CI/CD Cleanup Script  
+Delete old build artifacts and Docker images to save storage costs.
+
+Backup Script  
+Dump MySQL/Postgres databases and upload backups to Azure Blob Storage.
+
+Deployment Rollback Script  
+Roll back to the last stable release if a deployment fails.
+
+SSL Certificate Renewal Script  
+Automate renewal of Let’s Encrypt certificates and reload Nginx/Apache.
+
+Service Restart Script  
+Monitor critical services (e.g., MySQL, Nginx) and restart if they crash.
+
+Network Latency Script  
+Use ping and curl to measure latency to Azure services and log results.
+
+Cost Optimization Script  
+Stop unused VMs at night and start them in the morning to save costs.
+
+Container Cleanup Script  
+Remove dangling Docker images and stopped containers to free disk space.
+
+Pipeline Artifact Validation Script  
+Verify checksums of build artifacts before deploying.
+
+Security Patch Script  
+Run apt-get update && apt-get upgrade or yum update automatically on schedule.
+
+Azure Storage Usage Script  
+Check Blob Storage usage and alert if nearing quota.
+
+DNS & Load Balancer Check Script  
+Verify DNS resolution and load balancer health endpoints.
+
+Log Analytics Push Script  
+Send custom logs to Azure Log Analytics using curl and REST API.
+
+Blue-Green Deployment Script  
+Automate switching traffic between two environments with minimal downtime.
+
+Secret Rotation Script  
+Rotate API keys or passwords stored in Azure Key Vault and update dependent services.
+
+Incident Auto-Response Script  
+Detect high CPU/memory and automatically scale AKS pods or restart services.
